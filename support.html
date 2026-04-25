@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheFamHub Support</title>
+    <style>
+        :root {
+            color-scheme: dark;
+            --bg: #08111d;
+            --panel: rgba(16, 24, 38, 0.92);
+            --text: #f2f6fb;
+            --muted: #9fb2c4;
+            --accent: #71d5ff;
+            --border: rgba(255, 255, 255, 0.08);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background:
+                radial-gradient(circle at top right, rgba(113, 213, 255, 0.14), transparent 26%),
+                linear-gradient(180deg, #0b1628 0%, var(--bg) 100%);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+            padding: 24px;
+        }
+
+        main {
+            width: min(820px, 100%);
+            margin: 0 auto;
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 32px 24px;
+            box-shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            font-size: clamp(2rem, 4vw, 3rem);
+        }
+
+        h2 {
+            margin-top: 28px;
+            font-size: 1.15rem;
+        }
+
+        p, li {
+            color: var(--muted);
+            line-height: 1.7;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        .card {
+            margin-top: 18px;
+            padding: 18px;
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            background: rgba(255, 255, 255, 0.03);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>TheFamHub Support</h1>
+        <p>
+            Need help with TheFamHub? Use the information below for common support topics and contact.
+        </p>
+
+        <div class="card">
+            <h2>Support Contact</h2>
+            <p>
+                Email: <a href="mailto:support@thefamhub.app">support@thefamhub.app</a>
+            </p>
+            <p>
+                If you do not own this address yet, replace it before submitting to the App Store.
+            </p>
+        </div>
+
+        <h2>Common Issues</h2>
+        <ul>
+            <li>If family location is not updating, confirm location permission is set to <strong>Always</strong>.</li>
+            <li>If notifications are not arriving, confirm notifications are enabled both in iOS Settings and in the Family notification preferences.</li>
+            <li>If Apple Calendar sync is unavailable, confirm calendar access has been granted in iOS Settings.</li>
+            <li>If an invite link does not work, make sure the invited person opens it on a device where TheFamHub is installed and signs in first if required.</li>
+        </ul>
+
+        <h2>Account and Data Requests</h2>
+        <p>
+            If you need help with account access, family membership, or privacy-related questions, contact support using the address above.
+        </p>
+
+        <h2>Related Links</h2>
+        <p>
+            <a href="./privacy-policy.html">Privacy Policy</a>
+        </p>
+    </main>
+</body>
+</html>
